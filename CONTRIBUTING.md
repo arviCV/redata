@@ -4,7 +4,7 @@
 To be able to test changes you made in Redata, you will need to run it in dev mode.
 This way your changes will be used to generate metrics and dashboards.
 
-Setup is pretty the same, as for testing it in local mode, just use different docker-compose file to run it.
+Setup is pretty much the same, as for testing it in local mode, just use different docker-compose file to run it.
 
 ```
 git clone https://github.com/redata-team/redata.git
@@ -37,7 +37,7 @@ This enable you to quickly check if changes you made are working correctly.
 ## Before pull request
 
 Before making pull request, assuming you are changing code (not docs only).
-It would be usefull for run:
+It would be useful for run:
 
 ```
 docker-compose down
@@ -48,4 +48,3 @@ This will delete docker containers created and restart them from scratch using y
 If after that, grafana metrics are computed you are ready to make PR.
 
 Ps. We will soon add tests to make contributing and developing easier ;)
-
